@@ -1,7 +1,8 @@
 body
 {
  background-image: url('a.jpg');
-background-size: 1950px 1000px;
+
+background-size: auto;
 }
 a:link, a:visited {
   
@@ -28,4 +29,21 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+
+.button1{
+    background: #d9544f;
+  color: black;
+  text-align:center;
+padding: 10px 20px;
+
+}
+
+.button{
+
+    background: #00cc00;
+  color: black;
+padding: 10px 20px;
+align:center;
+  text align:center;
 }

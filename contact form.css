@@ -1,7 +1,8 @@
 body
 {
- background-image: url('contact form.jpg');
-background-size: 1950px 1000px;
+ background-image: url('contactform.jpg');
+ background-size: auto;
+
 }
 .Header{
 text-align:center;

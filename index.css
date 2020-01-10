@@ -1,0 +1,49 @@
+body
+{
+ background-image: url('a.jpg');
+
+background-size: auto;
+}
+a:link, a:visited {
+  
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+  }
+  
+  a:hover, a:active {
+    background-color:#34deeb;
+  }
+
+  
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.button1{
+    background: #d9544f;
+  color: black;
+  text-align:center;
+padding: 10px 20px;
+
+}
+
+.button{
+
+    background: #00cc00;
+  color: black;
+padding: 10px 20px;
+align:center;
+  text align:center;
+}

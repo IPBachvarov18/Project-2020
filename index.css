@@ -3,6 +3,11 @@ body
  background-image: url('a.jpg');
 
 background-size: auto;
+
+}
+img{
+  opacity: 0.3;
+  filter: alpha(opacity=50);
 }
 a:link, a:visited {
   
@@ -49,5 +54,13 @@ align:center;
 }
 div.a {
     font-size: 20px;
-    
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  div.all
+  {
+    position: relative;
+    color: white;
+  }
   }

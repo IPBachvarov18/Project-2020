@@ -52,7 +52,12 @@ padding: 10px 20px;
 
        background: #00cc00;
      color: black;
-padding: 10px 20px;
-align:center;
-	 text align:center;
+
+text-align:center;
+text-decoration: none;
+	 
+}
+
+.t{
+  width="1900";
 }

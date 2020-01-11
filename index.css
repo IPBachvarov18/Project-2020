@@ -5,10 +5,12 @@ body
 background-size: auto;
 
 }
+
 img{
-  opacity: 0.3;
-  filter: alpha(opacity=50);
+  opacity: 0.1;
+  
 }
+
 a:link, a:visited {
   
     color: black;
@@ -50,17 +52,43 @@ padding: 10px 20px;
   color: black;
 padding: 10px 20px;
 align:center;
-  text align:center;
+  text-align:center;
 }
-div.a {
+div.b{
     font-size: 20px;
     position: absolute;
-    top: 8px;
-    right: 16px;
+ top:290px;
+ color: white;
+
+ 
+
   }
   div.all
   {
     position: relative;
     color: white;
   }
+  
+  div.header
+  {
+    font-size: 30px;
+    text-align:center;
+    color:  black;
+    
+  }
+  div.a{
+    font-size: 20px;
+    position: absolute;
+  top:140px;
+    color:#1C304B;
+  }
+  div.about
+  {
+    
+    font-size: 30px;
+    color:  black;
+    position:absolute;
+    top:220px;
+    left:900px ;
+   
   }

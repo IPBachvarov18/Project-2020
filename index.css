@@ -5,10 +5,15 @@ body
 background-size: auto;
 
 }
-
+div.Nav
+{
+  position: fixed;
+  margin-left: 1300px;
+  font-size: 19px;
+}
 img{
-  opacity: 0.1;
-  
+  padding-top: 400px;
+  margin-left: 700px;
 }
 
 a:link, a:visited {
@@ -91,4 +96,24 @@ div.b{
     top:220px;
     left:900px ;
    
+  }
+  div.why
+  {
+    font-size: 30px;
+    color:  black;
+    position:absolute;
+    top:400px;
+    left:900px ;
+  }
+  div.c{
+    font-size: 20px;
+    position: absolute;
+  top:450px;
+    color:#1C304B;
+  }
+  div.title
+  {
+    font-size: 20px;
+    font-family: Shadows Into Light;
+    font-size: 23px;
   }

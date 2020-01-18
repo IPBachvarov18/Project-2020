@@ -1,119 +1,116 @@
-body
-{
- background-image: url('a.jpg');
 
-background-size: auto;
-
-}
-div.Nav
-{
-  position: fixed;
-  margin-left: 1170px;
-  font-size: 19px;
-}
-img{
-  padding-top: 400px;
-  margin-left: 700px;
-}
-
-a:link, a:visited {
-  
-    color: black;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    float: right;
-  }
-  
-  a:hover, a:active {
-    background-color:#34deeb;
-  }
-
-  
-  body {font-family: Arial, Helvetica, sans-serif;}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+* {
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
 }
 
-.button1{
-    background: #d9544f;
-  color: black;
-  text-align:center;
-padding: 10px 20px;
-
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
-
-.button{
-
-    background: #00cc00;
-  color: black;
-padding: 10px 20px;
-align:center;
-  text-align:center;
-}
-div.b{
-    font-size: 20px;
-    position: absolute;
- top:290px;
- color: white;
-
- 
-
-  }
-  div.all
-  {
-    position: relative;
-    color: white;
-  }
-  
-  div.header
-  {
-    font-size: 30px;
-    text-align:center;
-    color:  black;
-    
-  }
-  div.a{
-    font-size: 20px;
-    position: absolute;
-  top:140px;
-    color:#1C304B;
-  }
-  div.about
-  {
-    
-    font-size: 30px;
-    color:  black;
-    position:absolute;
-    top:220px;
-    left:900px ;
-   
-  }
-  div.why
-  {
-    font-size: 30px;
-    color:  black;
-    position:absolute;
-    top:400px;
-    left:900px ;
-  }
-  div.c{
-    font-size: 20px;
-    position: absolute;
-  top:450px;
-    color:#1C304B;
-  }
-  div.title
-  {
-    font-size: 100px;
+div.title
+{
+	
+	   font-size: 100px;
     font-family: 'Dancing Script', cursive;
     font-size: 23px;
+	text-decoration:none;
+}
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #008000;
+  color: #ff0000;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #003300;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: #ff0000;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #006666
+;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  
+
+}
+
+/* Main column */
+.main {   
+  
+  
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
   }
+}
+p   {
+color:white;
+
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+.borderskill  {
+border-block-color: white;
+
+
+}

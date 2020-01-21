@@ -1,2 +1,2 @@
 # Project
-Simeone vkaravaj vsichko tuka
+Blue economy project 2020

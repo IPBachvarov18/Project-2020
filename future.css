@@ -1,0 +1,23 @@
+div.nav1
+{
+    position: fixed;
+    font-size: 22px;
+    background-color: black;
+    width: 100%;
+    
+   
+   
+}
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    float: left;
+  }
+  
+  a:hover, a:active {
+    background-color: #34deeb;
+  }
+  div.nav1 a {
+    text-decoration: none;
+  }

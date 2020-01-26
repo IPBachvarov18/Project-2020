@@ -29,12 +29,9 @@ div.nav a {
 }
 
 
-
-
 h4, h3 {
   font-weight: normal;
 }
-
 
 
 footer.footer {
@@ -50,4 +47,25 @@ div.about {
 
 img.turtle {
   height: 400px;
+}
+.future a:link, .future a:visited {
+  color: black;
+
+  padding: 12px 10px;
+  float: left;
+}
+
+.future a:hover,.future a:active {
+  background-color: aqua;
+  color:black ;
+}
+div.future a {
+  text-decoration: none;
+}
+div.future {
+float: right;
+}
+img.future1 {
+  height: 400px;
+  
 }

@@ -40,9 +40,36 @@ footer.footer {
   clear: both; 
 }
 
-div.about {
+.article-background-bright {
+  background-color: white;
+}
+
+.article-background-dark {
+  background-color: silver;
+}
+
+article {
+  margin-top: 22px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+article h2 {
+  margin-top: 0px;
+}
+
+article.about {
   display: flex;
   justify-content: space-around;
+}
+
+article.future {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.future a {
+  text-decoration: none;
 }
 
 img.turtle {
@@ -59,27 +86,18 @@ img.turtle {
   background-color: aqua;
   color:black ;
 }
-div.future a {
-  text-decoration: none;
-}
-div.future {
-float: right;
-}
+
 img.future1 {
-  height: 400px;
+  height: 350px;
   
 }
-div.contact
-{
-padding-top: 600px;
-
-}
-div.simeon
+article.contact
 {
 
   display: flex;
   justify-content: space-around;
 }
+
 
 
 div.ivelin

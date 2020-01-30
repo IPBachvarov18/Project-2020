@@ -27,7 +27,20 @@ div.nav {
 div.nav a {
   text-decoration: none;
 }
-
+div.logo
+{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+div.bottom-left
+{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 30px;
+  color: #C5E7D9;
+}
 
 h4, h3 {
   font-weight: normal;

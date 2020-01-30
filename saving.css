@@ -1,46 +1,59 @@
-div.nav1
-{
-    position: fixed;
-    font-size: 22px;
-    background-color: black;
-    width: 100%;
-    
-   
-   
+.nav1 a:link, .nav1 a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  float: left;
 }
-a:link, a:visited {
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    float: left;
-  }
-  
-  a:hover, a:active {
-    background-color: #34deeb;
-  }
-  div.nav1 a {
-    text-decoration: none;
-  }
 
-  div.text_save
+.nav1 a:hover,.nav1 a:active {
+  background-color: #34deeb;
+  color:#233D62 ;
+}
+
+div.nav1 {
+  position: fixed;
+  font-size: 22px;
+  background-color: black;
+  width: 100%;
+  top: 0.0001%;
+  z-index: 1;
+}
+
+div.nav1 a {
+  text-decoration: none;
+}
+
+  article.text_save
   {
-    position: relative;
-    left:100px;
-    bottom: 290px;
+    display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
  
   }
-  div.save_pic
-  {
-    position: relative;
-    top: 100px;
-    left: 1000px;
+  img.savepic {
+    height: 400px;
+    padding-top: 20px;
   }
-  pre{
-    font-family: "Times New Roman", Georgia, Serif;
+  article {
+    margin-top: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
+
   body{
       background-color: silver;
   }
   p{
-      font-size: 15px;
+      font-size: 20px;
+  }
+  article.text_habitat
+  {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  img.habitatpic
+  {
+    height: 350px;
+    
   }

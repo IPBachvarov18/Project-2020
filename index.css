@@ -96,20 +96,24 @@ article.contact
 
   display: flex;
   justify-content: space-around;
+  background-color: #FEF9D5;
 }
 
-
-
-div.ivelin
+article.contact1
 {
+
   display: flex;
   justify-content: space-around;
-wod
+  background-color: #FEF9D5;
 }
 
-div.rado
+
+article.contact2
 {
+
   display: flex;
   justify-content: space-around;
-
+  background-color: #FEF9D5;
 }
+
+

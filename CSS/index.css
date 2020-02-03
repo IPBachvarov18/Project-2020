@@ -1,0 +1,136 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.nav a:link, .nav a:visited {
+  color: #99CCC7;
+  padding: 14px 25px;
+  text-align: center;
+  float: left;
+}
+
+.nav a:hover,.nav a:active {
+  background-color: #C5E7D9;
+  color:#233D62 ;
+}
+
+div.nav {
+  position: fixed;
+  font-size: 22px;
+  background-color: #233D62;
+  width: 100%;
+  top: 0.0001%;
+  z-index: 1;
+}
+
+div.nav a {
+  text-decoration: none;
+}
+div.logo
+{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+div.bottom-left
+{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 30px;
+  color: #C5E7D9;
+}
+
+h4, h3 {
+  font-weight: normal;
+}
+
+
+footer.footer {
+  text-align: center;
+  display: block;
+  clear: both; 
+}
+
+.article-background-bright {
+  background-color: white;
+}
+
+.article-background-dark {
+  background-color: silver;
+}
+
+article {
+  margin-top: 22px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+article h2 {
+  margin-top: 0px;
+}
+
+article.about {
+  display: flex;
+  justify-content: space-around;
+}
+
+article.future {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.future a {
+  text-decoration: none;
+}
+
+  
+
+
+img.turtle {
+  height: 400px;
+}
+.future a:link, .future a:visited {
+  color: black;
+
+  padding: 12px 10px;
+  float: left;
+}
+
+
+
+img.future1 {
+  height: 300px;
+  
+}
+article.contact
+{
+
+  display: flex;
+  justify-content: space-around;
+  background-color: #FEF9D5;
+}
+
+article.contact1
+{
+
+  display: flex;
+  justify-content: space-around;
+  background-color: #FEF9D5;
+}
+img.ivelin
+{
+  width: 300px;
+}
+
+article.contact2
+{
+
+  display: flex;
+  justify-content: space-around;
+  background-color: #FEF9D5;
+}
+
+

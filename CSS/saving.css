@@ -1,6 +1,8 @@
 body{
   overflow-x: hidden;
 }
+
+/*  Navigation Bar  */
 .nav1 a:link, .nav1 a:visited {
   color: white;
   padding: 14px 25px;
@@ -8,12 +10,12 @@ body{
   float: left;
 }
 
-.nav1 a:hover,.nav1 a:active {
+.nav1 a:hover,.nav1 a:active {           /*  Animation when hover  */
   background-color: #34deeb;
   color:#233D62 ;
 }
 
-div.nav1 {
+div.nav1 {                         /*  Style by default  */
   position: fixed;
   font-size: 22px;
   background-color: black;
@@ -25,43 +27,63 @@ div.nav1 {
 div.nav1 a {
   text-decoration: none;
 }
+/*  Navigation Bar  */
+
+/* Article position */
 
   article.text_save
   {
     display: flex;
   justify-content: space-around;
   padding-top: 50px;
- 
   }
+  /* Article position */
+
+
   img.savepic {
     height: 400px;
     padding-top: 20px;
   }
+
+  /* Article position */
   article {
     margin-top: 22px;
     padding-top: 16px;
     padding-bottom: 16px;
   }
+/* Article position */
+
+/* Background of the page */
 
   body{
       background-color: silver;
   }
+  /* Background of the page */
+
+  /* Size of the text*/
   p{
       font-size: 20px;
   }
+  /* Size of the text*/
+
+  /* Article position */
   article.text_habitat
   {
     display: flex;
     justify-content: space-around;
     
   }
+  /* Article position */
+
+  /* Size of the images */
   img.habitatpic
   {
     height: 350px;
     
   }
+/* Size of the images */
 
-  
+  /* The site to be responsible in smaller screen*/
   @media screen and (max-width: 768px)
   {
     .nav1 a:link, .nav1 a:visited {
@@ -124,3 +146,4 @@ div.nav1 a {
         
       }
   }
+  /* The site to be responsible in smaller screen*/

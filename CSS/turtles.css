@@ -1,0 +1,121 @@
+body{
+  overflow-x: hidden;
+  background-color: aquamarine;
+}
+
+.nav2 a:link, .nav2 a:visited {
+  color: #99CCC7;
+  padding: 14px 25px;
+  text-align: center;
+  float: left;
+}
+div.nav2
+{
+  position: fixed;
+  font-size: 22px;
+  background-color: #233D62;
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  top: 0.1%;
+}
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    float: left;
+  }
+  
+  a:hover, a:active {
+    background-color: #34deeb;
+  }
+  div.nav2 a {
+    text-decoration: none;
+  }
+  article.Types_of_turtles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+  }
+  img.turtle {
+    height: 300px;
+  }
+  img.turtle1 {
+    height: 280px;
+  }
+  p
+  {
+    font-size: 20px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  article.Turtles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+
+  @media screen and (max-width: 768px)
+  {
+    .nav2 a:link, .nav2 a:visited {
+      color: #99CCC7;
+      padding: 14px 25px;
+      text-align: center;
+      float: left;
+    }
+    div.nav2
+    {
+      position: fixed;
+      font-size: 22px;
+      background-color: #233D62;
+      width: 100%;
+      display: flex;
+      z-index: 1;
+      top: 0.1%;
+    }
+    a:link, a:visited {
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        float: left;
+      }
+      
+      a:hover, a:active {
+        background-color: #34deeb;
+      }
+      div.nav2 a {
+        text-decoration: none;
+      }
+      article.Types_of_turtles {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+      }
+      img.turtle {
+        height: 300px;
+      }
+      img.turtle1 {
+        height: 280px;
+      }
+      p
+      {
+        font-size: 20px;
+      }
+      h1{
+        font-size: 40px;
+      }
+      article.Turtles {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+      }
+  }

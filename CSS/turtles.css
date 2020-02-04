@@ -29,8 +29,9 @@ a:link, a:visited
     float: left;
   }
   
-  a:hover, a:active {
+  .nav2 a:hover,.nav2 a:active{
     background-color: #34deeb;        /*  Animation when hover  */
+    color:black ;
   }
 
   div.nav2 a 
@@ -105,6 +106,7 @@ a:link, a:visited
       
       a:hover, a:active {
         background-color: #34deeb;
+        color:#233D62 ;
       }
       div.nav2 a {
         text-decoration: none;

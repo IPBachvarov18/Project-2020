@@ -46,7 +46,7 @@ div.bottom-left
 h4, h3 {
   font-weight: normal;
 }
-
+ 
 
 footer.footer {
   text-align: center;
@@ -65,7 +65,7 @@ footer.footer {
 article {
   margin-top: 22px;
   padding-top: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 66px;
 }
 
 article h2 {

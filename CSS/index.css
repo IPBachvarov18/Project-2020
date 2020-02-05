@@ -6,7 +6,6 @@ body {
 }
 /* the shrift of the text*/
 
-
 /*  Navigation Bar  */
 .nav a:link, .nav a:visited {
   color: #99CCC7;
@@ -130,6 +129,14 @@ img.future1 {
 
 
 /* Article position */
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -35px;
+  visibility: hidden;
+}
+
 article.contact
 {
   display: -webkit-box;
